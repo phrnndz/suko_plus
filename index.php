@@ -16,10 +16,15 @@
     <?php 
     $detect = new Mobile_Detect(); 
     
-    if (isset($_GET['level'])) 
-        $so = new Sudoku($_GET['level']);
+    if (isset($_GET['caja']) && isset($_GET['level']))
+    {
+       $so = new Sudoku($_GET['caja']);
+       $so->level($_GET['level']);
+    }
     else
+    {
         $so = new Sudoku();
+    }
     ?>
     <div class="container">
         <div class="panel">

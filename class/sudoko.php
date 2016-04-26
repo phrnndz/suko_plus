@@ -30,6 +30,24 @@ error_reporting(E_ALL ^ E_NOTICE);
         $this->_minimoValorAceptado = $min;
         $this->_maximoValorAceptado = $max;
      }
+     
+     /*@params $level asignar un nivel predeterminado */ 
+     public function level($level){
+        switch ($level) {
+            case '1':
+                    $this->_maximoValorAceptado = 9;
+               break;
+            case '2':
+                     $this->_maximoValorAceptado = 15;
+               break;
+            case '3':
+                     $this->_maximoValorAceptado = 25;
+               break;
+           default:
+               # code...
+               break;
+        }
+     }
 
      private function createMatriz()
      {

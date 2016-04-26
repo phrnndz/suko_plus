@@ -28,7 +28,7 @@
             <?php 
                 #Crear el menú dependiendo del movil
                 if ($detect->isMobile())  
-                    $so->get_menu('class/menu.html',6);
+                    $so->get_menu('class/menu.html',8);
                 else
                     $so->get_menu('class/menu.html',20);
              ?>

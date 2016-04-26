@@ -33,7 +33,7 @@
          }
 
          function wuii(){
-            alert("Wiii Felicidades lo lograste");
+            alert("Wiiiiii felicidades! lo lograste!");
          }
        
          function mostrar(){

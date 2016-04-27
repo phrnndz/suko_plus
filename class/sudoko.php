@@ -134,7 +134,7 @@ error_reporting(E_ALL ^ E_NOTICE);
         $lista = "";
         for ($i=2; $i < $limit ; $i++) { 
             $lista .=('<option value="'.$i.'"> '
-                            .$i.'x'.$i.' cajas</option>');
+                            .$i.'x'.$i.'</option>');
         }
         $listaMenu = str_replace('%lista%',$lista,$menu);
         echo $listaMenu;

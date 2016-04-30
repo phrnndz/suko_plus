@@ -50,7 +50,7 @@
             </div>           
         </div>
     </div>
-        <footer>
+    <footer>
         <p>Developed by <strong><a href="https://github.com/omferito" target="_blank">Omar Vásquez</a></strong> – Designed by <strong><a href="https://github.com/phrnndz" target="_blank">Pamela Hernández</a></strong></p>
     </footer>
     <script>
